@@ -1,0 +1,455 @@
+id,name
+no_451,Absinthe
+no_137,Ajwan
+no_0,--Select--
+no_281,Alasande Gram
+no_325,Almond(Badam)
+no_166,Alsandikai
+no_86,Amaranthus
+no_130,Ambada Seed
+no_417,Ambady/Mesta
+no_355,Amla(Nelli Kai)
+no_102,Amphophalus
+no_419,Amranthas Red
+no_209,Antawala
+no_379,Anthorium
+no_17,Apple
+no_326,Apricot(Jardalu/Khumani)
+no_140,Arecanut(Betelnut/Supari)
+no_49,Arhar (Tur/Red Gram)(Whole)
+no_260,Arhar Dal(Tur Dal)
+no_444,Asalia
+no_505,Asgand
+no_83,Ashgourd
+no_506,Ashoka
+no_443,Ashwagandha
+no_434,Asparagus
+no_232,Astera
+no_507,Atis
+no_269,Avare Dal
+no_418,Bael
+no_491,Bajji chilli
+no_28,Bajra(Pearl Millet/Cumbu)
+no_274,Balekai
+no_482,balsam
+no_204,Bamboo
+no_19,Banana
+no_90,Banana - Green
+no_483,Banana flower
+no_485,Banana Leaf
+no_484,Banana stem
+no_29,Barley (Jau)
+no_435,basil
+no_321,Bay leaf (Tejpatta)
+no_94,Beans
+no_262,Beaten Rice
+no_157,Beetroot
+no_508,Behada
+no_263,Bengal Gram Dal (Chana Dal)
+no_6,Bengal Gram(Gram)(Whole)
+no_357,Ber(Zizyphus/Borehannu)
+no_143,Betal Leaves
+no_41,Betelnuts
+no_85,Bhindi(Ladies Finger)
+no_448,Bhui Amlaya
+no_113,Big Gram
+no_51,Binoula
+no_81,Bitter gourd
+no_8,Black Gram (Urd Beans)(Whole)
+no_264,Black Gram Dal (Urd Dal)
+no_38,Black pepper
+no_380,BOP
+no_189,Borehannu
+no_82,Bottle gourd
+no_449,Brahmi
+no_290,Bran
+no_497,Bread Fruit
+no_35,Brinjal
+no_487,Brocoli
+no_293,Broken Rice
+no_320,Broomstick(Flower Broom)
+no_214,Bull
+no_284,Bullar
+no_224,Bunch Beans
+no_272,Butter
+no_416,buttery
+no_154,Cabbage
+no_480,Calendula
+no_215,Calf
+no_354,Camel Hair
+no_205,Cane
+no_164,Capsicum
+no_40,Cardamoms
+no_375,Carnation
+no_153,Carrot
+no_238,Cashew Kernnel
+no_36,Cashewnuts
+no_270,Castor Oil
+no_123,Castor Seed
+no_34,Cauliflower
+no_188,Chakotha
+no_438,Chandrashoor
+no_169,Chapparad Avare
+no_241,Chennangi (Whole)
+no_295,Chennangi Dal
+no_328,Cherry
+no_71,Chikoos(Sapota)
+no_26,Chili Red
+no_88,Chilly Capsicum
+no_509,Chironji
+no_167,Chow Chow
+no_402,Chrysanthemum
+no_231,Chrysanthemum(Loose)
+no_316,Cinamon(Dalchini)
+no_467,cineraria
+no_478,Clarkia
+no_105,Cloves
+no_80,Cluster beans
+no_315,Coca
+no_368,Cock
+no_104,Cocoa
+no_138,Coconut
+no_266,Coconut Oil
+no_112,Coconut Seed
+no_45,Coffee
+no_318,Colacasia
+no_129,Copra
+no_43,Coriander(Leaves)
+no_108,Corriander seed
+no_472,Cossandra
+no_15,Cotton
+no_99,Cotton Seed
+no_212,Cow
+no_92,Cowpea (Lobia/Karamani)
+no_89,Cowpea(Veg)
+no_159,Cucumbar(Kheera)
+no_42,Cummin Seed(Jeera)
+no_486,Curry Leaf
+no_352,Custard Apple (Sharifa)
+no_382,Daila(Chandni)
+no_91,Dal (Avare)
+no_273,Dalda
+no_410,Delha
+no_69,Dhaincha
+no_442,dhawai flowers
+no_476,dianthus
+no_492,Double Beans
+no_495,Dragon fruit
+no_423,dried mango
+no_168,Drumstick
+no_132,Dry Chillies
+no_345,Dry Fodder
+no_278,Dry Grapes
+no_370,Duck
+no_163,Duster Beans
+no_367,Egg
+no_361,Egypian Clover(Barseem)
+no_296,Elephant Yam (Suran)
+no_64,Field Pea
+no_221,Fig(Anjura/Anjeer)
+no_206,Firewood
+no_366,Fish
+no_510,Flax seeds
+no_365,Flower Broom
+no_121,Foxtail Millet(Navane)
+no_298,French Beans (Frasbean)
+no_350,Galgal(Lemon)
+no_471,Gamphrena
+no_25,Garlic
+no_249,Ghee
+no_452,Giloy
+no_276,Gingelly Oil
+no_27,Ginger(Dry)
+no_103,Ginger(Green)
+no_364,Gladiolus Bulb
+no_363,Gladiolus Cut Flower
+no_462,Glardia
+no_219,Goat
+no_353,Goat Hair
+no_475,golden rod
+no_511,Gond
+no_494,Goose berry (Nellikkai)
+no_359,Gram Raw(Chholia)
+no_294,Gramflour
+no_22,Grapes
+no_165,Green Avare (W)
+no_87,Green Chilli
+no_346,Green Fodder
+no_9,Green Gram (Moong)(Whole)
+no_265,Green Gram Dal (Moong Dal)
+no_50,Green Peas
+no_267,Ground Nut Oil
+no_268,Ground Nut Seed
+no_10,Groundnut
+no_314,Groundnut (Split)
+no_312,Groundnut pods (raw)
+no_75,Guar
+no_413,Guar Seed(Cluster Beans Seed)
+no_185,Guava
+no_453,Gudmar
+no_454,Guggal
+no_461,gulli
+no_74,Gur(Jaggery)
+no_279,Gurellu
+no_469,gypsophila
+no_252,Haralekai
+no_512,Harrah
+no_216,He Buffalo
+no_474,Heliconia species
+no_369,Hen
+no_125,Hippe Seed
+no_236,Honey
+no_124,Honge seed
+no_119,Hybrid Cumbu
+no_473,hydrangea
+no_299,Indian Beans (Seam)
+no_344,Indian Colza(Sarson)
+no_465,Irish
+no_256,Isabgul (Psyllium)
+no_182,Jack Fruit
+no_513,Jaee
+no_406,Jaffri
+no_151,Jaggery
+no_175,Jamamkhan
+no_184,Jamun(Narale Hannu)
+no_376,Jarbara
+no_229,Jasmine
+no_250,Javi
+no_5,Jowar(Sorghum)
+no_16,Jute
+no_210,Jute Seed
+no_362,Kabuli Chana(Chickpeas-White)
+no_317,Kacholam
+no_230,Kakada
+no_501,kakatan
+no_456,Kalihari
+no_457,Kalmegh
+no_233,Kankambra
+no_115,Karamani
+no_439,karanja seeds
+no_187,Karbuja(Musk Melon)
+no_305,Kartali (Kantola)
+no_481,Kevda
+no_61,Kharif Mash
+no_514,Khirni
+no_372,Khoya
+no_336,Kinnow
+no_177,Knool Khol
+no_117,Kodo Millet(Varagu)
+no_458,kokum
+no_459,Kooth
+no_243,Kuchur
+no_114,Kulthi(Horse Gram)
+no_415,Kutki
+no_426,kutki
+no_155,Ladies Finger
+no_515,Laha
+no_96,Lak(Teora)
+no_171,Leafy Vegetable
+no_310,Lemon
+no_63,Lentil (Masur)(Whole)
+no_378,Lilly
+no_180,Lime
+no_470,Limonia (status)
+no_67,Linseed
+no_280,Lint
+no_432,liquor turmeric
+no_351,Litchi
+no_302,Little gourd (Kundru)
+no_304,Long Melon(Kakri)
+no_403,Lotus
+no_339,Lotus Sticks
+no_337,Lukad
+no_479,Lupine
+no_504,Ma.Inji
+no_107,Mace
+no_427,macoy
+no_411,Mahedi
+no_335,Mahua
+no_371,Mahua Seed(Hippe seed)
+no_288,Maida Atta
+no_4,Maize
+no_20,Mango
+no_172,Mango (Raw-Ripe)
+no_422,mango powder
+no_225,Maragensu
+no_181,Marasebu
+no_407,Marget
+no_235,Marigold(Calcutta)
+no_405,Marigold(loose)
+no_502,Marikozhunthu
+no_60,Mash
+no_340,Mashrooms
+no_259,Masur Dal
+no_93,Mataki
+no_47,Methi Seeds
+no_46,Methi(Leaves)
+no_237,Millets
+no_360,Mint(Pudina)
+no_258,Moath Dal
+no_95,Moath Dal
+no_77,Mousambi(Sweet Lime)
+no_446,Muesli
+no_428,Muleti
+no_516,Muskmelon Seeds
+no_12,Mustard
+no_324,Mustard Oil
+no_142,Myrobolan(Harad)
+no_245,Nargasi
+no_222,Nearle Hannu
+no_126,Neem Seed
+no_223,Nelli Kai
+no_500,Nerium
+no_424,nigella seeds
+no_445,nigella seeds
+no_98,Niger Seed (Ramtil)
+no_106,Nutmeg
+no_23,Onion
+no_358,Onion Green
+no_18,Orange
+no_381,Orchid
+no_420,Other green and fresh vegetables
+no_97,Other Pulses
+no_213,Ox
+no_414,Paddy(Dhan)(Basmati)
+no_2,Paddy(Dhan)(Common)
+no_441,Palash flowers
+no_72,Papaya
+no_313,Papaya (Raw)
+no_404,Patti Calcutta
+no_331,Peach
+no_330,Pear(Marasebu)
+no_308,Peas cod
+no_174,Peas Wet
+no_347,Peas(Dry)
+no_301,Pegeon Pea (Arhar Fali)
+no_109,Pepper garbled
+no_110,Pepper ungarbled
+no_489,Perandai
+no_327,Persimon(Japani Fal)
+no_220,Pigs
+no_21,Pineapple
+no_431,pippali
+no_329,Plum
+no_303,Pointed gourd (Parval)
+no_240,Polherb
+no_190,Pomegranate
+no_425,Poppy capsules
+no_421,poppy seeds
+no_24,Potato
+no_84,Pumpkin
+no_254,Pundi
+no_128,Pundi Seed
+no_447,Pupadia
+no_161,Raddish
+no_30,Ragi (Finger Millet)
+no_409,Raibel
+no_248,Rajgir
+no_517,Rala
+no_282,Ram
+no_518,Ramphal
+no_307,Rat Tail Radish (Mogari)
+no_460,Ratanjot
+no_65,Raya
+no_519,Rayee
+no_493,Red Cabbage
+no_7,Red Gram
+no_322,Resinwood
+no_62,Riccbcan
+no_3,Rice
+no_160,Ridgeguard(Tori)
+no_374,Rose(Local)
+no_228,Rose(Loose)
+no_373,Rose(Tata)
+no_306,Round gourd
+no_111,Rubber
+no_291,Sabu Dan
+no_59,Safflower
+no_338,Saffron
+no_271,Sajje
+no_468,salvia
+no_122,Same/Savi
+no_433,sanay
+no_450,Sandalwood
+no_247,Sarasum
+no_277,Season Leaves
+no_253,Seegu
+no_176,Seemebadnekai
+no_201,Seetapal
+no_11,"Sesamum(Sesame,Gingelly,Til)"
+no_464,sevanti
+no_217,She Buffalo
+no_283,She Goat
+no_218,Sheep
+no_183,Siddota
+no_490,Siru Kizhagu
+no_226,Skin And Hide
+no_156,Snakeguard
+no_135,Soanf
+no_207,Soapnut(Antawala/Retha)
+no_520,Soha
+no_286,Soji
+no_246,Sompu
+no_13,Soyabean
+no_455,spikenard
+no_342,Spinach
+no_311,Sponge gourd
+no_332,Squash(Chappal Kadoo)
+no_440,stevia
+no_430,stone pulverizer
+no_48,Sugar
+no_150,Sugarcane
+no_488,Sundaikai
+no_14,Sunflower
+no_285,Sunflower Seed
+no_139,Sunhemp
+no_242,Suram
+no_300,Surat Beans (Papadi)
+no_255,Suva (Dill Seed)
+no_178,Suvarna Gadde
+no_152,Sweet Potato
+no_173,Sweet Pumpkin
+no_466,Sweet Sultan
+no_477,sweet william
+no_120,T.V. Cumbu
+no_261,Tamarind Fruit
+no_208,Tamarind Seed
+no_100,Tapioca
+no_76,Taramira
+no_44,Tea
+no_200,Tender Coconut
+no_116,Thinai (Italian Millet)
+no_170,Thogrikai
+no_162,Thondekai
+no_349,Tinda
+no_141,Tobacco
+no_78,Tomato
+no_323,Torchwood
+no_66,Toria
+no_234,Tube Flower
+no_401,Tube Rose(Double)
+no_408,Tube Rose(Loose)
+no_377,Tube Rose(Single)
+no_503,Tulasi
+no_463,tulip
+no_39,Turmeric
+no_309,Turmeric (raw)
+no_341,Turnip
+no_436,vadang
+no_437,Vatsanabha
+no_343,Walnut
+no_496,Water Apple
+no_521,Water chestnut
+no_73,Water Melon
+no_522,Wax
+no_1,Wheat
+no_287,Wheat Atta
+no_429,White Muesli
+no_412,White Peas
+no_158,White Pumpkin
+no_498,Wild lemon
+no_203,Wood
+no_499,Wood Apple
+no_348,Wool
+no_244,Yam
+no_297,Yam (Ratalu)
