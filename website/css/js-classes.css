@@ -12,12 +12,12 @@
     /* --menu-clr: #3f6212; */
     /* --menu-clr: #064e3b; */
     /* --menu-clr: #064e3b; */
-    /* --menu-clr: #155e75; */
-    --menu-clr: #15803d;
+    --menu-clr: #dcedc8;
+    /* --menu-clr: #15803d; */
 }
 .menu_activated{
     background-color: var(--menu-clr) !important;
     & img {
-        filter: invert(0.21);
+        filter: contrast(1);
     }
 }

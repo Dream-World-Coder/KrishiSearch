@@ -25,6 +25,11 @@ header{
             background-color: rgb(19, 19, 19);
             border: 1px solid var(--dark-green);
 
+            @media (width > 1000px) {
+                margin-left: 5rem;
+                width: calc(80% - 5rem);
+            }
+
             & input{
                 position: relative;
                 width: 100%;
@@ -42,6 +47,10 @@ header{
             height: 45px;
             border-radius: var(--r1-x);
             background-color: var(--notice-clr-green-500);
+
+            @media (width > 1000px) {
+                margin-right: 5rem;
+            }
 
             & img{
                 width: 30px;
