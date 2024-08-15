@@ -1,0 +1,46 @@
+
+/your_project
+├── app
+│   ├── __init__.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── routes
+│   │   ├── __init__.py
+│   │   ├── main_routes.py
+│   │   ├── auth_routes.py
+│   │   ├── article_routes.py
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   ├── static
+│   │   ├── css
+│   │   ├── js
+│   ├── utils
+│   │   ├── scraping.py
+
+
+/your_project
+├── app
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   ├── static
+│   │   ├── css
+│   │   ├── js
+│   ├── utils
+│   │   ├── scraping.py
+├── config.py
+├── run.py
+└── requirements.txt
+
+
+
+
