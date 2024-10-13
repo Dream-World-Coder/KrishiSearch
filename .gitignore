@@ -2,5 +2,10 @@
 */.DS_Store
 */*/.DS_Store
 .env
-.venv
-# helpers
+.venv/
+# api
+__pycache__/
+*.pyc
+*.pyo
+*.py[co]
+*~

@@ -23,7 +23,7 @@ def make_csv(data: iter, output_file: str) -> None:
 
         
 # if opend in root directory
-os.chdir(os.path.join(os.getcwd(), 'helpers/html/states_and_districts'))
+os.chdir(os.path.join(os.getcwd(), 'api'))
 
 file_path = 'all_states.html'
 state_valut_list = []

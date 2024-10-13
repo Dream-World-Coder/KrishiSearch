@@ -1,7 +1,7 @@
 import os
 import shutil
 
-os.chdir(os.path.join(os.getcwd(), 'helpers/html/states_and_districts'))
+os.chdir(os.path.join(os.getcwd(), 'api'))
 
 csv_directory = os.path.join(os.getcwd(), 'csv_files')
 for file in os.listdir():

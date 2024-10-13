@@ -4,7 +4,7 @@ from collections import defaultdict
 import csv
 
 
-os.chdir(os.path.join(os.getcwd(), 'helpers/html/states_and_districts'))
+os.chdir(os.path.join(os.getcwd(), 'api'))
 
 csv_files_directory = 'csv_files'
 output_file_path = 'district_numbers.csv'
