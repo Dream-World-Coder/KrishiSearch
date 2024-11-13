@@ -10,3 +10,4 @@ __pycache__/
 *.py[co]
 *~
 mockup/
+./app/api/html
