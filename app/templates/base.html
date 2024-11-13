@@ -1,174 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KrishiSearch</title>
     <!-- KisaanSamarth -->
     <!-- AgriBazaar -->
 
-    <meta name="description" content="KrishiSearch">
-    <meta name="keywords" content="KrishiSearch">
-    <meta name="author" content="Subhajit Gorai">
+    <meta name="description" content="KrishiSearch" />
+    <meta name="keywords" content="KrishiSearch" />
+    <meta name="author" content="Subhajit Gorai" />
 
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/fonts.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/components/header.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/components/main.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/components/footer.css')}}">
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/fonts.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/components/header.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/components/main.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/components/footer.css')}}"
+    />
 
-    <link rel="stylesheet" href="{{url_for('static', filename='css/js-classes.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/utils.css')}}">
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/js-classes.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/utils.css')}}"
+    />
 
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Open Graph Metadata -->
-    <meta property="og:title" content="KrishiSearch">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="https://">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="KrishiSearch">
-</head>
+    <meta property="og:title" content="KrishiSearch" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="KrishiSearch" />
+  </head>
 
-<body>
-    <!-- ajax call will be used -->
-
-    <!-- 12vh -->
-    <header class="b-wX relative flexed">
-        <div class="search-bar relative full flexed b-w-X justify-between">
-            <div class="input-space relative">
-                <input type="text" name="query" id="query" placeholder="Try searching 'rice prices in Howrah'" required>
-            </div>
-            <div class="search-icon relative flexed">
-                <img src="{{url_for('static', filename='icons/s1.svg')}}"
-                alt="" srcset="">
-            </div>
+  <body class="relative flex-col">
+    <header class="relative flexed">
+      <div class="search-bar relative full flexed b-w-X justify-between">
+        <div class="input-space relative">
+          <input
+            type="text"
+            name="query"
+            id="query"
+            placeholder="Try searching 'rice prices in Howrah'"
+            required
+          />
         </div>
+        <div class="search-icon relative flexed">
+          <img
+            src="{{url_for('static', filename='icons/s1.svg')}}"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
     </header>
 
-    <!-- 75vh -->
-    <main class="b-wX">
-        <!-- home page -->
-        <div class="relative main__message full flexed">
-            <p>
-                Welcome to <strong>KrishiSearch</strong>
-                <br><br>
-                You can search anything related to agriculture here. 
-                <strong>KrishiSearch</strong> will provide you with various related and <cite>trustworthy information</cite> and datasets, 
-                which will help you in making informed decisions. 
-                From <cite>wholesale crop prices in different regions accross the nation</cite> to different <cite>seed and fertilizer prices</cite>, 
-                useful government schemes, and <cite>weather forcasts and climate information</cite> that will help you maintain your crops—everything is 
-                available here.
-                <br><br>
-                Stay informed, <cite>get the price your hard-work deserves</cite>.
-            </p>
+    <main class="relative full">
+      <!-- home page -->
+      <div class="relative main__message full flexed">
+        <p>
+          Welcome to <strong>KrishiSearch</strong> <br /><br />
+          You can search anything related to agriculture here.
+          <strong>KrishiSearch</strong> will provide you with various related
+          and <cite>trustworthy information</cite> and datasets, which will help
+          you in making informed decisions. From
+          <cite
+            >wholesale crop prices in different regions accross the nation</cite
+          >
+          to different <cite>seed and fertilizer prices</cite>, useful
+          government schemes, and
+          <cite>weather forcasts and climate information</cite> that will help
+          you maintain your crops—everything is available here. <br /><br />
+          Stay informed, <cite>get the price your hard-work deserves</cite>.
+        </p>
+      </div>
+
+      <!-- search results -->
+      <div class="search__reasults relative flexed hidden">
+        <div class="reasult__container relative">reasults</div>
+      </div>
+
+      <!-- profile -->
+      <div class="profile relative full flex-col b-wX hidden">
+        <!-- private details -->
+        <div class="user-details relative">
+          <div class="user-data relative">
+            <div class="conn relative flex">
+              <div class="profile-pic relative flexed">
+                <div class="pic-container bg-set full flexed">
+                  <img
+                    src="{{url_for('static', filename='icons/user.svg')}}"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+              </div>
+              <!-- information container -->
+              <div class="info-container relative full flex-col align-center">
+                <div class="user-name relative">Mr. Name Surname</div>
+                <div class="user-number">1234567890</div>
+                <div class="user-email">3ZrJt@example.com</div>
+              </div>
+            </div>
+            <!-- region -->
+            <div class="user-address">
+              <em>Region: </em>Shibpur, Kolkata, West Bengal, India, pin 700091
+              <span>change</span>
+            </div>
+          </div>
+          <!-- logout etc -->
+          <div class="other-options relative flexed justify-between">
+            <div class="logout relative flexed">Log out</div>
+            <div class="user-stocks relative flexed">My Stock</div>
+          </div>
         </div>
 
-        <!-- search results -->
-        <div class="search__reasults relative flexed hidden">
-            <div class="reasult__container relative">
-                reasults
-            </div>
+        <!-- settings -->
+        <div class="settings relative flex-col">
+          <h3>Settings</h3>
+          <br />
+          <div class="dark-mode relative flexed justify-between">
+            <div class="text">Dark Mode</div>
+            <div class="value">On</div>
+          </div>
+          <div class="font-size relative flexed justify-between">
+            <div class="text">Font Size</div>
+            <div class="value">14px</div>
+          </div>
+          <div class="language relative flexed justify-between">
+            <div class="text">Language</div>
+            <div class="value">English</div>
+          </div>
         </div>
 
-        <!-- profile -->
-        <div class="profile relative full flex-col b-wX hidden">
-            <!-- private details -->
-            <div class="user-details relative">
-                <div class="user-data relative">
-                    <div class="conn relative flex">
-                        <div class="profile-pic relative flexed">
-                            <div class="pic-container bg-set full flexed">
-                                <img src="{{url_for('static', filename='icons/user.svg')}}"
-                                alt="" srcset="">
-                            </div>
-                        </div>
-                        <!-- information container -->
-                        <div class="info-container relative full flex-col align-center">
-                            <div class="user-name relative">
-                                Mr. Name Surname
-                            </div>
-                            <div class="user-number">
-                                1234567890
-                            </div>
-                            <div class="user-email">
-                                3ZrJt@example.com
-                            </div>
-                        </div>
-                    </div>
-                    <!-- region -->
-                    <div class="user-address">
-                        <em>Region: </em>Shibpur, Kolkata, West Bengal, India,
-                        pin 700091
-                        <span>change</span>
-                    </div>
-                </div>
-                <!-- logout etc -->
-                <div class="other-options relative flexed justify-between">
-                    <div class="logout relative flexed">Log out</div>
-                    <div class="user-stocks relative flexed">My Stock</div>
-                </div>
-            </div>
-
-            <!-- settings -->
-            <div class="settings relative flex-col">
-                <h3>Settings</h3>
-                <br>
-                <div class="dark-mode relative flexed justify-between">
-                    <div class="text">Dark Mode</div>
-                    <div class="value">On</div>
-                </div>
-                <div class="font-size relative flexed justify-between">
-                    <div class="text">Font Size</div>
-                    <div class="value">14px</div>
-                </div>
-                <div class="language relative flexed justify-between">
-                    <div class="text">Language</div>
-                    <div class="value">English</div>
-                </div>
-            </div>
-
-            <!-- feed back -->
-            <div class="feedback relative">
-                <h3>Feedback</h3>
-                <br>
-                Your Feedback is important to us, feel free to express your thoughts.
-                <br>
-            </div>
+        <!-- feed back -->
+        <div class="feedback relative">
+          <h3>Feedback</h3>
+          <br />
+          Your Feedback is important to us, feel free to express your thoughts.
+          <br />
         </div>
+      </div>
 
-        <!-- news -->
-        <div class="news relative full flex-col hidden">
-            <div class="topics relative flexed justify-between">
-                <div class="subjects relative flexed active">Climate Change</div>
-                <div class="subjects relative flexed">Govt. Schemes</div>
-                <div class="subjects relative flexed">Self Growth</div>
-                <div class="subjects relative flexed">Kisan Space</div>
-            </div>
-            <div class="news-content relative"></div>
+      <!-- news -->
+      <div class="news relative full flex-col hidden">
+        <div class="topics relative flexed justify-between">
+          <div class="subjects relative flexed active">Weather Forecast</div>
+          <div class="subjects relative flexed">Govt. Schemes</div>
+          <!-- <div class="subjects relative flexed">Self Growth</div> -->
+          <!-- <div class="subjects relative flexed">Kisan Space</div> -->
         </div>
+        <div class="news-content relative"></div>
+      </div>
     </main>
 
-    <!-- 13vh -->
-    <footer class="b-wX relative flexed">
-        <div class="footer-container relative full flexed justify-between">
-            <div id="option1" class="options relative flexed">
-                <img src="{{url_for('static', filename='icons/news.svg')}}"
-                alt="" srcset="">
-            </div>
-            <div id="option2" class="options relative flexed">
-                <img src="{{url_for('static', filename='icons/s4.svg')}}"
-                alt="" srcset="">
-            </div>
-            <div id="option3" class="options relative flexed">
-                <img src="{{url_for('static', filename='icons/p1.svg')}}"
-                alt="" srcset="">
-            </div>
+    <footer class="flexed">
+      <div class="footer-container relative full flexed justify-between">
+        <div id="option1" class="options relative flexed">
+          <img
+            src="{{url_for('static', filename='icons/news.svg')}}"
+            alt=""
+            srcset=""
+          />
         </div>
+        <div id="option2" class="options relative flexed">
+          <img
+            src="{{url_for('static', filename='icons/s4.svg')}}"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div id="option3" class="options relative flexed">
+          <img
+            src="{{url_for('static', filename='icons/p1.svg')}}"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
     </footer>
 
-    <script type="text/javascript" src="{{url_for('static', filename='js/menu.js')}}"></script>
-    <script type="text/javascript" src="{{url_for('static', filename='js/news.js')}}"></script>
-</body>
+    <script
+      type="text/javascript"
+      src="{{url_for('static', filename='js/menu.js')}}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{url_for('static', filename='js/news.js')}}"
+    ></script>
+  </body>
 </html>

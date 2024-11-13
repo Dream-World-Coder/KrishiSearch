@@ -1,0 +1,3 @@
+1   .b-w
+2   removed .relative in footer
+3   climate --> weather info

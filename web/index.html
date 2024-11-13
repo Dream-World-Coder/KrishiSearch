@@ -1,24 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KrishiSearch</title>
-    <!-- KisaanSamarth -->
-    <!-- AgriBazaar -->
 
     <meta name="description" content="KrishiSearch" />
     <meta name="keywords" content="KrishiSearch" />
     <meta name="author" content="Subhajit Gorai" />
 
-    <link rel="stylesheet" href="./static/css/style.css" />
-    <link rel="stylesheet" href="./static/css/fonts.css" />
-    <link rel="stylesheet" href="./static/css/components/header.css" />
-    <link rel="stylesheet" href="./static/css/components/main.css" />
-    <link rel="stylesheet" href="./static/css/components/footer.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/fonts.css" />
+    <link rel="stylesheet" href="static/css/components/header.css" />
+    <link rel="stylesheet" href="static/css/components/main.css" />
+    <link rel="stylesheet" href="static/css/components/footer.css" />
 
-    <link rel="stylesheet" href="./static/css/js-classes.css" />
-    <link rel="stylesheet" href="./static/css/utils.css" />
+    <link rel="stylesheet" href="static/css/js-classes.css" />
+    <link rel="stylesheet" href="static/css/utils.css" />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
@@ -30,11 +28,8 @@
     <meta property="og:site_name" content="KrishiSearch" />
   </head>
 
-  <body>
-    <!-- ajax call will be used -->
-
-    <!-- 12vh -->
-    <header class="b-wX relative flexed">
+  <body class="relative flex-col">
+    <header class="relative flexed">
       <div class="search-bar relative full flexed b-w-X justify-between">
         <div class="input-space relative">
           <input
@@ -46,13 +41,12 @@
           />
         </div>
         <div class="search-icon relative flexed">
-          <img src="./static/icons/s1.svg" alt="" srcset="" />
+          <img src="static/icons/s1.svg" alt="" srcset="" />
         </div>
       </div>
     </header>
 
-    <!-- 75vh -->
-    <main class="b-wX">
+    <main class="relative full">
       <!-- home page -->
       <div class="relative main__message full flexed">
         <p>
@@ -85,7 +79,7 @@
             <div class="conn relative flex">
               <div class="profile-pic relative flexed">
                 <div class="pic-container bg-set full flexed">
-                  <img src="./static/icons/user.svg" alt="" srcset="" />
+                  <img src="static/icons/user.svg" alt="" srcset="" />
                 </div>
               </div>
               <!-- information container -->
@@ -138,31 +132,30 @@
       <!-- news -->
       <div class="news relative full flex-col hidden">
         <div class="topics relative flexed justify-between">
-          <div class="subjects relative flexed active">Climate Change</div>
+          <div class="subjects relative flexed active">Weather Forecast</div>
           <div class="subjects relative flexed">Govt. Schemes</div>
-          <div class="subjects relative flexed">Self Growth</div>
-          <div class="subjects relative flexed">Kisan Space</div>
+          <!-- <div class="subjects relative flexed">Self Growth</div> -->
+          <!-- <div class="subjects relative flexed">Kisan Space</div> -->
         </div>
         <div class="news-content relative"></div>
       </div>
     </main>
 
-    <!-- 13vh -->
-    <footer class="b-wX relative flexed">
+    <footer class="flexed">
       <div class="footer-container relative full flexed justify-between">
         <div id="option1" class="options relative flexed">
-          <img src="./static/icons/news.svg" alt="" srcset="" />
+          <img src="static/icons/news.svg" alt="" srcset="" />
         </div>
         <div id="option2" class="options relative flexed">
-          <img src="./static/icons/s4.svg" alt="" srcset="" />
+          <img src="static/icons/s4.svg" alt="" srcset="" />
         </div>
         <div id="option3" class="options relative flexed">
-          <img src="./static/icons/p1.svg" alt="" srcset="" />
+          <img src="static/icons/p1.svg" alt="" srcset="" />
         </div>
       </div>
     </footer>
 
-    <script type="text/javascript" src="./static/js/menu.js"></script>
-    <script type="text/javascript" src="./static/js/news.js"></script>
+    <script type="text/javascript" src="static/js/menu.js"></script>
+    <script type="text/javascript" src="static/js/news.js"></script>
   </body>
 </html>

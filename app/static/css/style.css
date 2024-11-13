@@ -1,50 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+:root {
+  --bg-clr1: #111;
+  --bg-clr2: aliceblue;
 
-:root{
-    --bg-clr1: #111;
-    --bg-clr2: aliceblue;
+  --font-clr1: white;
+  --font-clr2: black;
+  --font-clr3: aliceblue;
 
-    --font-clr1: white;
-    --font-clr2: black;
-    --font-clr3: aliceblue;
+  --strong-clr1: rgb(56, 142, 60);
+  --strong-clr1x: rgba(41, 105, 44, 0.657);
+  --strong-clr2: rgb(233, 30, 99);
+  --strong-clr2x: rgba(233, 30, 98, 0.505);
+  --strong-clr3: #03a9f4;
+  --strong-clr3x: #006492b3;
 
-    --strong-clr1: rgb(56,142,60);
-    --strong-clr1x: rgba(41, 105, 44, 0.657);
-    --strong-clr2: rgb(233,30,99);
-    --strong-clr2x: rgba(233, 30, 98, 0.505);
-    --strong-clr3: #03a9f4;
-    --strong-clr3x: #006492b3;
+  --notice-clr-green-200: #bbf7d0;
+  --notice-clr-green-300: #86efac;
+  --notice-clr-green-400: #34d399;
+  --notice-clr-green-500: #22c55e;
+  --dark-green: #059669;
 
-    --notice-clr-green-200: #bbf7d0;
-    --notice-clr-green-300: #86efac;
-    --notice-clr-green-400: #34d399;
-    --notice-clr-green-500: #22c55e;
-    --dark-green: #059669;
+  --red-mid: #e11d48;
+  --shade1: #404040;
+  --shade1x: #4a4a4a65;
 
-    --red-mid: #e11d48;
-    --shade1: #404040;
-    --shade1x: #4a4a4a65;
-
-    --footer-clr: rgba(51,51,51,0.351);
-    --footer-clr-medium: rgba(51,51,51,0.651);
-    --footer-clr-dark: rgba(51,51,51,1);
+  --footer-clr: rgba(51, 51, 51, 0.351);
+  --footer-clr-medium: rgba(51, 51, 51, 0.651);
+  --footer-clr-dark: rgba(51, 51, 51, 1);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    background-color: var(--bg-clr1);
-    color: aliceblue;
-    font-family: poppins, sans-serif;
+body {
+  background-color: var(--bg-clr1);
+  color: aliceblue;
+  font-family: poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden;
 }
 
-::placeholder{
-    color: rgba(168, 168, 168, 0.411);
+::placeholder {
+  color: rgba(168, 168, 168, 0.411);
 }

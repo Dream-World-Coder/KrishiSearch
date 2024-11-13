@@ -1,23 +1,18 @@
-
-.hidden{
-    display: none !important;
+.hidden {
+  display: none !important;
 }
 
-.visible{
-    display: flex;
-    position: relative;
+.visible {
+  display: flex;
+  position: relative;
 }
 
-:root{
-    /* --menu-clr: #3f6212; */
-    /* --menu-clr: #064e3b; */
-    /* --menu-clr: #064e3b; */
-    --menu-clr: #dcedc8;
-    /* --menu-clr: #15803d; */
+:root {
+  --menu-clr: #dcedc8;
 }
-.menu_activated{
-    background-color: var(--menu-clr) !important;
-    & img {
-        filter: contrast(1);
-    }
+.menu_activated {
+  background-color: var(--menu-clr) !important;
+  & img {
+    filter: contrast(1);
+  }
 }
