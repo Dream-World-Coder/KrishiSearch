@@ -12,3 +12,6 @@ __pycache__/
 mockup/
 ./app/api/html
 app/api/html
+__pycache__/
+app/__pycache__/
+app/api/__pycache__/
