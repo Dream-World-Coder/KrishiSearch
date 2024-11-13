@@ -11,3 +11,4 @@ __pycache__/
 *~
 mockup/
 ./app/api/html
+app/api/html
